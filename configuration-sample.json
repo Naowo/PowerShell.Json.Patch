@@ -1,0 +1,50 @@
+{
+    "jsonPatch": [
+    {
+      "filePath": "assets/config/config.json",
+      "patchOperations": [
+        {
+          "type": "replace",
+          "propertyPath": "version",
+          "value": "1.0.1"
+        },
+        {
+          "type": "replace",
+          "propertyPath": "apiEndpoints",
+          "value": {
+            "api1": "https://aaaaaaa.com/",
+            "api2": "https://bbbbbbb.com"
+          }
+        },
+        {
+          "type": "replace",
+          "propertyPath": "auth.authority",
+          "value": "https://login.microsoftonline.com/isphereint.onmicrosoft.com"
+        },
+        {
+          "type":"replace",
+          "propertyPath": "auth.clientId",
+          "value": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+        },
+        {
+          "type": "replace",
+          "propertyPath": "auth.redirectUri",
+          "value": "https://ccccccc.com/"
+        },
+        {
+          "type": "replace",
+          "propertyPath": "auth.endpoints",
+          "value": [
+            ["https://aaaaa.com/", ["api://xxxxxxxx-api.xxxxxxx.online/xxxxxx.xxxxxx"]],
+            ["https://bbbbb.com/", ["api://xxxxxxxx-api.xxxxxxx.online/xxxxxx.xxxxxx"]]
+          ]
+        },
+        {
+          "type": "replace",
+          "propertyPath": "appInsights.instrumentationKey",
+          "value": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+        }
+      ]
+    }
+  ]
+}

@@ -20,7 +20,11 @@ function Format-Json([Parameter(Mandatory, ValueFromPipeline)][String] $json) {
   }) -Join "`n"
 }
 
-
+##########################
+#Check If the Item is    #
+#not null during path    #
+#exploration             #
+##########################
 function Item-Not-Null([Parameter(ValueFromPipeline)][Object] $item){
 	if ($item -eq $null){
 		Write-Host -Foregroundcolor red "The current path exploration failed this patch operation for path: $($patchOperationPropertyPath), `nfor the following operation: $($patchOperationType.ToUpper())";
