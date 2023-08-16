@@ -1,8 +1,8 @@
 **PowerShell json patch script**  
 How to use ? 
 
-BasePath parameters of the script describe the base path for the path you put in the configuration 
-JsonPatchConfigurationPath is the path to the jsonpatchconfiguration file 
+BasePath parameter describe the base path for the path you put in the configuration 
+JsonPatchConfigurationPath parameter is the path to the jsonpatchconfiguration file 
 
 All JSON Patch opérations are supported, REPLACE, ADD, DELETE 
 
