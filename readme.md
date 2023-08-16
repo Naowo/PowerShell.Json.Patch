@@ -62,7 +62,7 @@ You con replace a whole array or object or specify an index or a property by pas
 How to run it ? 
 -
 So the configuration is ready ! now it's time to run ! 
-Open Powershell we will assume you command line is in the folder where is the jsonPatch.ps1 script
+Open Powershell we will assume you command line is in the folder where is the jsonPatch.ps1 script 
 
 ```
 ./patchJson.ps1 -basePath "C:base/path/to/my/patched/files" -jsonPatchConfiguration "C:full/path/to/my/config/file.json"
