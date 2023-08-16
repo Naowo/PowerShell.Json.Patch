@@ -54,10 +54,20 @@ You can patch what ever you want you can replace/delete an array element by spec
 You can add an item to an array (don't specify index in this case)
 You con replace a whole array or object or specify an index or a property by passing a sub object as value  
 
+So the configuration is ready ! now it's time to run ! Open Powershell we will assume you command line is in the folder where is the jsonPatch.ps1 script
+
+```
+./patchJson.ps1 -basePath "C:base/path/to/my/patched/files" -jsonPatchConfiguration "C:full/path/to/my/config/file.json"
+```
+
+There is no output configuration patched files are overwritten. 
+
+===Errors behavior ===
 None of the errors break the script if an error occurs the script exit with the exit code 1 (standard on error exit code)
 
 Why this behavior ? cause this script have been develop to be used in CI/CD pipeline on azure devops 
 
 (and I prefer to break at the end of task and not in the middle of execution with this behavior you can see all you configurations erros in one run, but the run is stop due to the exit code)
+
 
 
