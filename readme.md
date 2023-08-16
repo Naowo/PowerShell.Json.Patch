@@ -27,7 +27,7 @@ Cause you can patch multiples files in one run !
 }
 ```
 
-Ok now I can tell the script where find the json file wich must be patch so now let take a look on patch opérations. 
+Ok now I can tell the script where find the json file wich must be patched so now let take a look on patch opérations. 
 
 ```
 {
