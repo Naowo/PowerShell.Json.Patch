@@ -1,5 +1,7 @@
 PowerShell json patch script  
 ==
+Compatibility : PS & PScore (might work on abrove versions too)
+System compatibility: Windows 10-11 & Unix (with powershell core)
 
 How to use ? 
 =
