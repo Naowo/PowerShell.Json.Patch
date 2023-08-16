@@ -62,7 +62,8 @@ So the configuration is ready ! now it's time to run ! Open Powershell we will a
 
 There is no output configuration patched files are overwritten. 
 
-===Errors behavior ===
+Errors behavior
+=
 None of the errors break the script if an error occurs the script exit with the exit code 1 (standard on error exit code)
 
 Why this behavior ? cause this script have been develop to be used in CI/CD pipeline on azure devops 
