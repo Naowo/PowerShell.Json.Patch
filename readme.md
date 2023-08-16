@@ -1,13 +1,16 @@
-**PowerShell json patch script**  
+PowerShell json patch script  
+==
+
 How to use ? 
+=
 
 BasePath parameter describe the base path for the path you put in the configuration 
 JsonPatchConfigurationPath parameter is the path to the jsonpatchconfiguration file 
 
 All JSON Patch opérations are supported, REPLACE, ADD, DELETE 
 
-Ok so how can I configure my json patch ? 
-
+How to configure it ?  
+-
 You need a json file that contains a jsonPatch property : 
 
 ```
@@ -15,7 +18,6 @@ You need a json file that contains a jsonPatch property :
     "jsonPatch": []
 }
 ```
-
 Why an array there ? 
 Cause you can patch multiples files in one run ! 
 
@@ -49,11 +51,14 @@ Ok now I can tell the script where find the json file wich must be patched so no
 }
 ```
 
-What can I patch ? 
+What can I patch ?
+- 
 You can patch what ever you want you can replace/delete an array element by specifing the index of item
 You can add an item to an array (don't specify index in this case)
 You con replace a whole array or object or specify an index or a property by passing a sub object as value  
 
+How to run it ? 
+-
 So the configuration is ready ! now it's time to run ! Open Powershell we will assume you command line is in the folder where is the jsonPatch.ps1 script
 
 ```
