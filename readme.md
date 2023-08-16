@@ -6,8 +6,6 @@ JsonPatchConfigurationPath parameter is the path to the jsonpatchconfiguration f
 
 All JSON Patch opérations are supported, REPLACE, ADD, DELETE 
 
-You con replace a whole array or object or specify an index or a property 
-
 Ok so how can I configure my json patch ? 
 
 You need a json file that contains a jsonPatch property : 
@@ -53,8 +51,8 @@ Ok now I can tell the script where find the json file wich must be patched so no
 
 What can I patch ? 
 You can patch what ever you want you can replace/delete an array element by specifing the index of item
-You can patch a whole object "one shot" by passing a sub object as value  
 You can add an item to an array (don't specify index in this case)
+You con replace a whole array or object or specify an index or a property by passing a sub object as value  
 
 None of the errors break the script if an error occurs the script exit with the exit code 1 (standard on error exit code)
 
