@@ -1,6 +1,7 @@
 PowerShell json patch script  
 ==
 Compatibility : PS & PScore (might work on abrove versions too)
+
 System compatibility: Windows 10-11 & Unix (with powershell core)
 
 How to use ? 
@@ -62,6 +63,7 @@ You con replace a whole array or object or specify an index or a property by pas
 How to run it ? 
 -
 So the configuration is ready ! now it's time to run ! 
+
 Open Powershell we will assume you command line is in the folder where is the jsonPatch.ps1 script 
 
 ```
